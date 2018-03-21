@@ -16,7 +16,14 @@ namespace Projetinho
 
         public void Print()
         {
-            //throw new NotImplementedException();
+            Console.WriteLine(Id);
+            Console.WriteLine(Title);
+            Console.WriteLine(Comments);
+        }
+        public bool SetRemoved()
+        {
+            Removed = true;
+            return true;
         }
     }
 }

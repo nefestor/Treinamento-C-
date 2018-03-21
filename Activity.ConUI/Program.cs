@@ -11,10 +11,7 @@ namespace Activity.ConUI
     {
         static void Main(string[] args)
         {
-            Project p = new Project();
-            p.Id = 10;
-            Console.WriteLine(p.MarkFinished());
-            Console.ReadKey();
+            Project BusinessProject;
             
         }
     }

@@ -12,12 +12,10 @@ namespace Projetinho
         private Person FatherName { get; set; }
         private string Email { get; set; }
 
-        public Person(DateTime birth, Person father, string email)
+        public static Person GetPerson()
         {
-            BirthDate = birth;
-            FatherName = father;
-            Email = email;
+            return new Person
+            { };
         }
-        //public static void getPerson() => Person;
     }
 }

@@ -13,9 +13,12 @@ namespace Projetinho
         public DateTime EstimatedEndDate { get; set; }
         public DateTime RealEndTime { get; set; }
         public Person Responsible { get; set; }
+        
         public static Project GetProject() {
             return new Project
-            {};
+            {
+
+            };
         }
         public bool MarkFinished()
         {
