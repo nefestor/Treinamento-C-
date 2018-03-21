@@ -4,12 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Treinamento
+namespace Projetinho
 {
     public class Base : iBase
     {
-        public string Title;
-        public string Comments;
+        public string Title { get; set; }
+        public string Comments { get; set; }
+
+        public int Id { get; set; }
+        public bool Removed { get; set; }
 
         public void Print()
         {

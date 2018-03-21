@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Treinamento
+namespace Projetinho
 {
-    public interface iBase
-    { 
+    interface iBase
+    {
+        Int32 Id { get; set; }
+        bool Removed { get; set; }
         void Print();
-
     }
 }
