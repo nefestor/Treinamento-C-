@@ -10,7 +10,6 @@ namespace Projetinho
     {
         public string Title { get; set; }
         public string Comments { get; set; }
-
         public int Id { get; set; }
         public bool Removed { get; set; }
 

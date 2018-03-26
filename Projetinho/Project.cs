@@ -13,7 +13,9 @@ namespace Projetinho
         public DateTime EstimatedEndDate { get; set; }
         public DateTime RealEndTime { get; set; }
         public Person Responsible { get; set; }
-        public static Project GetProject() {
+        public Tasks[] Tarefas { get; set; } = new Tasks[10];
+        public Person[] Users { get; set; } = new Person[10];
+        public Project GetProject() {
             return new Project
             {};
         }
@@ -23,5 +25,6 @@ namespace Projetinho
             Console.WriteLine(RealEndTime);
             return true;
         }
+
     }
 }

@@ -8,9 +8,9 @@ namespace Projetinho
 {
     public class Person : Base
     {
-        private DateTime BirthDate { get; set; }
-        private Person FatherName { get; set; }
-        private string Email { get; set; }
+        public DateTime BirthDate { get; set; }
+        public string FatherName { get; set; }
+        public string Email { get; set; }
 
         public static Person GetPerson()
         {
